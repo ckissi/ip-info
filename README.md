@@ -2,6 +2,7 @@
 
 **Get information about your local and remote IP in the menubar/system tray.**
 
+More information can be found on [IP-Info Homepage](https://www.windows10compatible.com/apps/ip-info)
 ## Features
 
 - show local IP address
