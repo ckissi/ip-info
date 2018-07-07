@@ -2,3 +2,5 @@ node_modules
 build
 dist
 .idea
+LICENSE.md
+package-lock.json
