@@ -1,0 +1,53 @@
+{
+    "name": "ip-info",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "electron-toolkit": "electron ./node_modules/electron-toolkit",
+        "dist": "build"
+    },
+    "repository": "https://github.com/electron/electron-quick-start",
+    "keywords": [
+        "IP",
+        "demo"
+    ],
+    "author": "Csaba Kissi",
+    "license": "CC0-1.0",
+    "devDependencies": {
+        "electron": "^2.0.0",
+        "electron-builder": "^20.16.0",
+        "electron-toolkit": "^1.0.24"
+    },
+    "dependencies": {
+        "address": "^1.0.3",
+        "auto-launch": "^5.0.5",
+        "electron-settings": "^3.1.4",
+        "http": "0.0.0",
+        "ip": "^1.1.5",
+        "node-notifier": "^5.2.1"
+    },
+    "build": {
+        "appId": "com.electron.ip-info",
+        "copyright": "Copyright © 2018 Csaba Kissi",
+        "productName": "ip-info",
+        "electronVersion": "2.0.0",
+        "asar": false,
+        "directories": {
+            "app": "/Users/csabakissi/Electron/ip-info",
+            "output": "dist"
+        },
+        "mac": {
+            "target": [
+                {
+                    "target": "dmg",
+                    "arch": [
+                        "x64"
+                    ]
+                }
+            ],
+            "category": "public.app-category.utilities"
+        }
+    }
+}
