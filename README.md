@@ -2,6 +2,15 @@
 
 **Get information about your local and remote IP in the menubar/system tray.**
 
+## Features
+
+- show local IP address
+- show remote IP address
+- show MAC address
+- one click copy to clipboard
+- IP location details [Country, City, Time Zone, ISP]
+- notifications
+
 ## To Use
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
